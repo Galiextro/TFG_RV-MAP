@@ -1,0 +1,18 @@
+# ---- Módulo de Reconocimiento Visual (RV) ----
+ultralytics         # Para YOLOv8-seg
+torch               # Backend de PyTorch para la IA
+torchvision         # Utilidades de visión para PyTorch
+opencv-python-headless # Para procesar imágenes (la versión 'headless' no tiene GUI)
+
+# ---- Módulos SIG y PR ----
+osmnx               # Para descargar mapas de OpenStreetMap
+networkx            # Para crear y analizar los grafos (Dijkstra)
+geopandas           # Para manejar datos geoespaciales (opcional pero muy útil)
+shapely             # Dependencia de geopandas/osmnx
+
+# ---- Entorno y Análisis de Datos ----
+jupyterlab          # Para los notebooks (.ipynb)
+notebook            # Dependencia de Jupyter
+pandas              # Para manejar datos y métricas
+matplotlib          # Para visualizar los grafos y las imágenes
+tqdm                # Para barras de progreso
