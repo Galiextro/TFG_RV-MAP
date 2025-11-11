@@ -4,7 +4,7 @@ Here is the data flow diagram for the RV-MAP project.
 
 ```mermaid
 graph LR
-    subgraph "RV-MAP System: Replanning Loop"
+    subgraph "Replanning Loop"
         
         %% --- INITIALIZATION PHASE ---
         A[Mission Start: Drone at Position A] --> B("Load Street Graph (OSMnx/NetworkX)");
