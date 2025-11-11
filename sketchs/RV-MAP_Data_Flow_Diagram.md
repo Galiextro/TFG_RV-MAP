@@ -3,7 +3,7 @@ Here is the data flow diagram for the RV-MAP project.
 ## RV-MAP Data Flow Diagram
 
 ```mermaid
-graph TD
+graph LR
     subgraph "RV-MAP System: Replanning Loop"
         
         %% --- INITIALIZATION PHASE ---
