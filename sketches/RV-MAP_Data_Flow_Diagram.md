@@ -1,5 +1,3 @@
-Here is the data flow diagram for the RV-MAP project.
-
 ## RV-MAP Data Flow Diagram
 
 ```mermaid
